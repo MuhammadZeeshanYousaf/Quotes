@@ -1,0 +1,165 @@
+h1 {
+	font-size:2em;
+	font-family: times new roman;
+	color: #0092ef;
+}
+nav {
+	padding-left: 50px;
+	padding-top: 15px;
+	height: 32px;
+	margin-bottom: 7px;
+	font-weight: bold;
+	font-family: Arial;
+	position: sticky;
+	top: 2px;
+	background: rgba(0,0,0,.09);
+	border-radius: 1px;
+}
+nav span a {
+	text-decoration: none;
+	color: #555555;
+	padding: 15px 40px 15px 40px;
+	display: inline;
+	border-radius: 0px;
+	text-transform: uppercase;
+}
+nav span a:hover{
+	background-color: #0092eb;
+	cursor: pointer;
+	color: white;
+}
+nav span a.active{
+	background-color: #0092ef;
+	color: white;
+}
+#authorInformation{
+	margin-top: 70px;
+	margin-right: 500px;
+	margin-left: 50px;
+	font-family: Arial;
+	float: right;
+	color: #0092eb;
+}
+#heading {
+	margin-top: 0px;
+	border: 3px solid #0092eb;
+	border-radius: 15px;
+	text-align: center;
+	font-family: Georgia;
+	font-size:5em;
+	color: #0092eb;
+	background-image: url("images/qoute.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat:	no-repeat;
+	padding: 270px 110px 80px 110px;
+}
+#quoteContent{
+	box-sizing: border-box;
+	height: 304px;
+	margin: 10px 100px 100px 100px;
+	font-family: century gothic;
+	border: 1px solid #0092eb;
+	/* border-bottom: solid #0092eb; */
+	overflow: visible;
+}
+#quoteContent>#firstImage {
+	float: left;
+}
+.saying>h2{
+	color: #0092eb; 
+}
+#quoteContent>#qouteText {
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+/*Footer styling */
+footer{
+	position: relative;
+	background-color: #313036;
+	color: #8f9195;
+	height: 300px;
+	font-family: candara;
+}
+footer .footerContent{
+	width: 100%;
+	height: 90%;
+	display: flex;
+}
+footer .footerContent .footerSection{
+	flex: 1;
+	padding-left: 20px;
+}
+footer .footerContent .footerSection h2{
+	color: #bbbbbb;
+}
+footer .footerContent .about p{
+	margin-top: 40px;
+}
+footer .footerContent .links{
+	padding-left: 100px;
+}
+footer .footerContent .links ul li{
+	margin-bottom: 5px;
+	transition: 0.4s;
+}
+footer .footerContent .links ul li:hover{
+	margin-left: 5px;
+	cursor: pointer;
+	color: white;
+	transition: 0.4s;
+}
+footer .footerContent .contact ul{
+	list-style-type: none;
+	margin-left: -20px;
+}
+footer .footerContent .contact a img{
+	margin-left: 20px;
+	border: 1px solid #8f9195;
+	padding: 4px;
+	border-radius: 6px;
+}
+footer .footerContent .contact form{
+	margin-left: 20px;
+	display: block;
+	margin-top: 12px;
+}
+footer .footerContent .contact form input{
+	border: none;
+	background-color: #272727;
+	color: #8f9195;
+	border-radius: 4px;
+	padding: 6px;
+	width: 230px;
+	font-size: 14px;
+	
+}
+footer .footerContent .contact form input:focus{
+	background-color: #eeeeee;
+	color: black;
+}
+footer .footerContent .contact .btn{
+	display: block;
+	margin-top: 6px;
+	padding: 6px 10px 6px 10px;
+	border: 1px solid #0092ef;
+	background-color: #0092ef;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+footer .footerContent .contact .btn:hover{
+	margin-left: 4px; 
+	transition: all 0.4s;
+	cursor: pointer;
+}
+footer .footerBottom{
+	background-color: #353a40;
+	padding: 0px;
+	height: 29px;
+	text-align: center;
+}
