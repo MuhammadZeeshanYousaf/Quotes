@@ -163,3 +163,14 @@ footer .footerBottom{
 	height: 29px;
 	text-align: center;
 }
+
+p #naumanDocument{
+	text-decoration: none;
+	color: white;
+	border:#0092eb;
+	border-radius: 6px;
+	background-color: #0092eb;
+	display: inline-block;
+	height: 100%;
+	padding: 5px;
+}
