@@ -66,6 +66,14 @@ nav span a.active{
 #quoteContent>#firstImage {
 	float: left;
 }
+/*
+#quoteContent::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+*/
+}
 .saying>h2{
 	color: #0092eb; 
 }
